@@ -9,16 +9,16 @@ docker build -t img-perpus-username .
 ```
 docker-compose up -d
 ```
-## 
+## Setting database configuration in .env
 ``` 
 docker exec -it "nama-container" bash
 ```
 
-##Run Command
+## Run Command
 ```
 php artisan migrate
 ```
-##Also Run Command 
+## Also Run Command 
 ```
 php artisan db:seed
 ```
