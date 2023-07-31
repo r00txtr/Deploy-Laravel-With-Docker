@@ -1,0 +1,4 @@
+Make sure you have database perpusku_gc
+Setting database configuration in .env
+Run Commandphp artisan migrate
+Also Run Command php artisan db:seed
