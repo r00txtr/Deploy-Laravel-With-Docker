@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'Built-In'
+            label 'docker-agent'
             }
       }
     triggers {
